@@ -1,0 +1,45 @@
+html, body, #map-canvas {
+    height: 100%;
+    margin: 0px;
+    padding: 0px
+}
+	
+#map-canvas{
+	width: 1000px;  
+	height: 1000px; 
+}
+
+#panel {
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    margin-left: -180px;
+    z-index: 5;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #999
+}
+
+#side-bar{
+	position: left;
+	width: 200px;
+	height: 1000px;
+}
+
+#marker-list{
+	position: absolute;
+	top: 90px;
+	font-family: Helvetica;
+	font-size: 20px;
+	list-style-type: square;
+	cursor: pointer;
+	color: #4687e1;
+	
+}
+
+h2{
+	height: 20px;
+	font-family: Helvetica;
+	position: relative;
+    left: 360px;
+}

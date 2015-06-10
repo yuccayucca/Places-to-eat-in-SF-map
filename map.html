@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<!--Yulia Ladutko
+yulialadutko@my.smccd.edu
+CIS 114 OL
+map.html
+Chapter 14
+Final
+05/21/2015-->
+
+<html>
+  <head>
+		<link rel="stylesheet" href="css/map.css">
+		<title>Maps (Yulia Ladutko)</title>
+   </head>
+    <script type="text/javascript"
+		var API_KEY = "AIzaSyDiBorm3Qk_WzUp1uCqVb0tRvBJ15SrYVY";
+		src="https://maps.googleapis.com/maps/api/js?key=" + API_KEY>
+    </script>
+	
+  <body>
+  <h2>Couple of Great Places to Eat in San Francisco</h2>
+  <div id="panel" style="margin-left: -130px">
+      <button id="drop" onclick="drop()">Drop Markers</button>
+     </div>
+	 <table> 
+      <tr>
+	<td><div id="map-canvas"></div></td> 
+	<td><ul id="marker-list"></ul></td>
+	  </tr> 
+     </table>
+	
+	  <script type="text/javascript" src='js/restaurantInfo.js'></script>
+	<script type="text/javascript" src='js/map.js'></script>
+  </body>
+</html>
